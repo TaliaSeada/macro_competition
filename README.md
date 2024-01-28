@@ -19,12 +19,14 @@ Obfuscated VBA macro shown in olevba output:
 
 ## To do (for feature extarction)
 
-- remove all the comments in the scripts
-- eliminate the special characters in the scripts.
+- Done: remove all the comments in the scripts and eliminate the special characters in the scripts
 For example, multiple consecutive spaces in the scripts that are replaced with one, tabs and new-lines will be deleted directly.
 After completing this step, the script will be converted to one line text, that each word is separated by a space and has no punctuation.
-- filter if there are URL/IP in the code - malicious scripts often download malware or malicious code from external websites to further attack the computer. real malicious behavior is hidden in the downloaded file.
-- filter if there are Malicious function using in the code
+
+- Done: filter if there are URL/IP in the code - malicious scripts often download malware or malicious code from external websites to further attack the computer. real malicious behavior is hidden in the downloaded file.
+
+- Not good filter: filter if there are Malicious function using in the code
+
 - filter Special variable names - the variable in malicious scripts is always named ”cmd”, ”Shell”, ”c”, etc. This is because hackers like to use scripts to call command lines in hacking.
 
 - filter commands of execution - https://attack.mitre.org/datasources/DS0017/#Command%20Execution
