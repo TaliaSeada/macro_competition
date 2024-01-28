@@ -27,7 +27,7 @@ After completing this step, the script will be converted to one line text, that 
 
 - **Not a good filter:** filter if there are Malicious function using in the code
 
-- **We chose not not to use this filter:** filter Special variable names - the variable in malicious scripts is always named ”cmd”, ”Shell”, ”c”, etc. This is because hackers like to use scripts to call command lines in hacking.
+- **We chose not to use this filter:** filter Special variable names - the variable in malicious scripts is always named ”cmd”, ”Shell”, ”c”, etc. This is because hackers like to use scripts to call command lines in hacking.
 
 - filter commands of execution - https://attack.mitre.org/datasources/DS0017/#Command%20Execution
 
@@ -44,7 +44,7 @@ After completing this step, the script will be converted to one line text, that 
 - **Done:** Note about length of the code: malicious scripts tend to use longer strings because the truly malicious code snippets are encoded into strings, then these malicious scripts can be obfuscated easily. the number of strings in the malicious script is longer than the benign samples. Therefore, we need to count the number of strings, the maximum length of the strings, and the average length of the strings as three features for each
 script.
 
-References (read and keep those that help us, take ideas, delete irrelevent):
+## References:
 1. https://intezer.com/blog/malware-analysis/analyze-malicious-microsoft-office-files/
 3. https://perception-point.io/blog/malicious-office-macros-detecting-similarity-in-the-wild-2/
 4. https://www.logpoint.com/en/blog/detecting-malicious-macros-is-a-vital-tool-in-the-fight-against-malware/
