@@ -27,7 +27,7 @@ After completing this step, the script will be converted to one line text, that 
 
 - **Not a good filter:** filter if there are Malicious function using in the code
 
-- **We chose not not to use this filter:**filter Special variable names - the variable in malicious scripts is always named ”cmd”, ”Shell”, ”c”, etc. This is because hackers like to use scripts to call command lines in hacking.
+- **We chose not not to use this filter:** filter Special variable names - the variable in malicious scripts is always named ”cmd”, ”Shell”, ”c”, etc. This is because hackers like to use scripts to call command lines in hacking.
 
 - filter commands of execution - https://attack.mitre.org/datasources/DS0017/#Command%20Execution
 
