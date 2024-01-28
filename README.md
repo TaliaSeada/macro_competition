@@ -1,6 +1,23 @@
 # macro_competition
+## Background
+Macros save users time by allowing them to automate a series of commands that can be triggered by different actions. Usually, macros are written in Visual Basic for Applications (VBA), a language developed by Microsoft and supported by all Microsoft Office products. Another way to create a macro is to record it within the Microsoft Office application. Macros are a powerful tool that gives users access and permissions to resources of the local system. Attackers use macros to modify files on the system and to execute the next stage of an attack.
 
-to do (for feature extarction)
+The VBA code in malicious Microsoft Office files is frequently obfuscated, and it may look similar to the image below. Attackers will obfuscate a macro’s code to make it harder and more time-consuming for antiviruses and malware analysts to understand what the code is doing. Attackers use several techniques including:
+
+- Encrypting strings and API calls (usually using Base64)
+- Adding random characters to obfuscate strings and API functions
+- Mangling the names of functions and variables
+- Using shellcode to execute malicious functions
+​​- Dynamically defining functions
+- VBA stomping
+
+After deobfuscating the code, you will have a better understanding of what the attacker is trying to achieve. Usually, they **start PowerShell** and **run commands to gather information about the system**, and **download a malicious payload** from a **remote host** to begin the next stage of the attack.
+
+Obfuscated VBA macro shown in olevba output:
+- ![image](https://github.com/TaliaSeada/macro_competition/assets/93203695/a0568fe4-59a2-46f2-b353-bd34199a3d90)
+
+
+## To do (for feature extarction)
 
 - remove all the comments in the scripts
 - eliminate the special characters in the scripts.
