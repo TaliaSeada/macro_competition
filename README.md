@@ -37,9 +37,9 @@ After completing this step, the script will be converted to one line text, that 
 
 - filter commands of Process Creation - https://attack.mitre.org/datasources/DS0009/#Process%20Creation
 
-- filter commands of Windows Registry Key Creation - https://attack.mitre.org/datasources/DS0024/#Windows%20Registry%20Key%20Creation
+- **Pass for now:** filter commands of Windows Registry Key Creation - https://attack.mitre.org/datasources/DS0024/#Windows%20Registry%20Key%20Creation
 
-- filter commands of Windows Registry Key Modification - https://attack.mitre.org/datasources/DS0024/#Windows%20Registry%20Key%20Modification
+- **Pass for now:** filter commands of Windows Registry Key Modification - https://attack.mitre.org/datasources/DS0024/#Windows%20Registry%20Key%20Modification
 
 - **Done:** Note about length of the code: malicious scripts tend to use longer strings because the truly malicious code snippets are encoded into strings, then these malicious scripts can be obfuscated easily. the number of strings in the malicious script is longer than the benign samples. Therefore, we need to count the number of strings, the maximum length of the strings, and the average length of the strings as three features for each
 script.
