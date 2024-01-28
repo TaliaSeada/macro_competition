@@ -17,7 +17,7 @@ Obfuscated VBA macro shown in olevba output:
 - ![image](https://github.com/TaliaSeada/macro_competition/assets/93203695/a0568fe4-59a2-46f2-b353-bd34199a3d90)
 
 
-## To do (for feature extarction)
+## Feature extarction Process
 
 - **Done:** remove all the comments in the scripts and eliminate the special characters in the scripts
 For example, multiple consecutive spaces in the scripts that are replaced with one, tabs and new-lines will be deleted directly.
