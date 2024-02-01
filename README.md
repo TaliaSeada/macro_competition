@@ -69,3 +69,4 @@ script.
 7. https://www.sentinelone.com/cybersecurity-101/what-is-a-macro-virus/
 8. https://medium.com/@sasikumarbibin/windows-common-directories-and-threat-actors-3ddcb3c9fad0
 9. https://depthsecurity.com/blog/obfuscating-malicious-macro-enabled-word-docs
+10. https://perception-point.io/blog/malicious-office-macros-detecting-similarity-in-the-wild-2/
